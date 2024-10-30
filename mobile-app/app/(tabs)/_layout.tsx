@@ -43,6 +43,15 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="camera"
+        options={{
+          title: 'Camera',
+          tabBarIcon: ({ color, focused }) => (
+            <AntDesign name="smileo" size={24} color="black" />
+          ),
+        }}
+      />
     </Tabs>
     
     

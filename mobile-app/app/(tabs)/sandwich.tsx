@@ -6,6 +6,7 @@ export default function Sandwich() {
         <View>
             <Text>This is about 🥪</Text>
             <Link href={"/mochi"}>This is a 🍡</Link>
+            <Link href={"/camera"}>This is a 📷</Link>
             <Link href={"/"}>👉🏻 This is Index Page</Link>
         </View>
     )

@@ -3,11 +3,13 @@ import { Link } from "expo-router";
 
 export default function Mochi() {
     return( 
+
         <ScrollView style={styles.page}>
             <View className="mx-4 my-8">
                 <Text style={styles.title}>This is about Mochi 🍡</Text>
                 <Link href="/sandwich">
                     <Text style={styles.link}>This is a 🥪</Text>
+                    <Link href={"/camera"}>This is a 📷</Link>
                 </Link>
                 <Link href="/">
                     <Text className="border-lime-700 border-2 rounded-xl">👉🏻 This is Index Page</Text>

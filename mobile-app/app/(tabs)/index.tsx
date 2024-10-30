@@ -7,6 +7,7 @@ export default function Paper() {
             <Text>This is a a page </Text>
             <Link href={"/sandwich"}>This is a 🥪</Link>
             <Link href={"/mochi"}>This is a 🍡</Link>
+            <Link href={"/camera"}>This is a 📷</Link>
         </View>
     )
 }
