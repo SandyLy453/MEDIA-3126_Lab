@@ -6,6 +6,7 @@ export default function Mochi() {
     <View>
             <Text>This is about Mochi 🍡</Text>
             <Link href={"/sandwich"}>This is a 🥪</Link>
+            <Link href={"/camera"}>This is a 📷</Link>
             <Link href={"/"}>👉🏻 This is Index Page</Link>
         </View>
     )
